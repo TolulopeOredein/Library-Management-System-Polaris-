@@ -53,6 +53,10 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin><plugin>
+				<groupId>com.microsoft.com</groupId>
+				<artifactId>azure-webapp-plugin</artifactId>
+				<version>1.7.0</version>
 			</plugin>
 		</plugins>
 	</build>
